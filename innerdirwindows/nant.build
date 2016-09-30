@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<project name="Hello World" default="build" basedir=".">
+  <target name="build">
+    <echo message="Dir: ${directory::get-current-directory()}" />
+  </target>
+</project>
