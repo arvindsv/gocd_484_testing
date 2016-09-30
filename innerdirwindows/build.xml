@@ -1,0 +1,8 @@
+<project name="MyProject" default="dist" basedir=".">
+  <target name="dist">
+    <exec executable="cmd">
+      <arg value="/c" />
+      <arg value="cd" />
+    </exec>
+  </target>
+</project>
